@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La météo chez vous !</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'/>   
+</head>
+<body>
+
+    <section id="app">
+        <h1>
+            <span id="ville">Nice</span>
+         <span class="tooltip">Tapez le nom d'une ville</span>
+            
+        </h1>
+        <i class="wi wi-day-rain"></i>
+        <h2>
+            <span id="temperature">25</span> C° (<span id="conditions">Ciel dégagé</span>)
+        </h2>
+        <h3>
+            Minimales: <span id="tempMin"></span> C° -  
+             Maximales: <span id="tempMax"></span> C°
+        </h3>
+
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
